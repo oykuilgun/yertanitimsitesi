@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Scotland</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Discover Scotland</h1>
+    <nav>
+      <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#places">Places to Visit</a></li>
+        <li><a href="#food">Traditional Foods</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>Welcome to Scotland</h2>
+      <p>Scotland, part of the United Kingdom, is known for its stunning landscapes, historic castles, and rich culture. From the Highlands to Edinburgh, there's much to explore.</p>
+      <button id="showMoreBtn">Show More</button>
+      <article id="extraContent" style="display: none;">
+        <p>Scotland offers beautiful lochs, unique Gaelic heritage, and vibrant festivals like the Edinburgh Fringe.</p>
+      </article>
+    </section>
+
+    <section id="places">
+      <h2>Places to Visit</h2>
+      <ul>
+        <li>Edinburgh Castle</li>
+        <li>Loch Ness</li>
+        <li>Isle of Skye</li>
+        <li>Glencoe Valley</li>
+      </ul>
+    </section>
+
+    <section id="food">
+      <h2>Traditional Foods</h2>
+      <ul>
+        <li>Haggis</li>
+        <li>Scotch Pie</li>
+        <li>Shortbread</li>
+        <li>Scottish Salmon</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Photo Gallery</h2>
+      <div class="gallery">
+        <img src="images/edinburgh.jpg" alt="Edinburgh">
+        <img src="images/skye.jpg" alt="Isle of Skye">
+        <img src="images/loch_ness.jpg" alt="Loch Ness">
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Discover Scotland. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
